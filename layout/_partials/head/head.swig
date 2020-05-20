@@ -43,7 +43,7 @@
   <meta name="yandex-verification" content="{{ theme.yandex_site_verification }}">
 {%- endif %}
 {%- if theme.baidu_site_verification %}
-  <meta name="baidu-site-verification" content="z4EbW7GYj6">
+  <meta name="baidu-site-verification" content="UhxJ7ZrEcf">
 {%- endif %}
 
 {%- if theme.facebook_sdk.enable and theme.facebook_sdk.webmaster %}
