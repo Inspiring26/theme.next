@@ -125,11 +125,11 @@ scheme: Pisces
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  home: /
+  home: / || home
   #about: /about/ || user
-  tags: /tags/
+  tags: /tags/ || tag
   #categories: /categories/ || th
-  archives: /archives/
+  archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -137,7 +137,7 @@ menu:
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  badges: true
 
 
 # ---------------------------------------------------------------
@@ -179,7 +179,8 @@ avatar:
   rotated: false
 
 # Posts / Categories / Tags in sidebar.
-site_state: true
+# 这里修改是不是单独显示标签和归档数量
+site_state: false
 
 # Social Links
 # Usage: `Key: permalink || icon`
